@@ -120,7 +120,11 @@
 #define UART5_RX_PIN            PD2
 #define UART5_TX_PIN            PC12
 
-#define SERIAL_PORT_COUNT       6
+#define USE_SOFTSERIAL1
+#define SOFTSERIAL_1_TX_PIN     PA8     // S6 output
+#define SOFTSERIAL_1_RX_PIN     PA8     // S6 output
+
+#define SERIAL_PORT_COUNT       7
 
 #define DEFAULT_RX_TYPE         RX_TYPE_SERIAL
 #define SERIALRX_PROVIDER       SERIALRX_SBUS

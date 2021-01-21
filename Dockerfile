@@ -10,5 +10,5 @@ USER inav
 
 VOLUME /src
 
-WORKDIR /src/build
-ENTRYPOINT ["/src/cmake/docker.sh"]
+WORKDIR /inav
+# ENTRYPOINT ["/src/cmake/docker.sh"]
